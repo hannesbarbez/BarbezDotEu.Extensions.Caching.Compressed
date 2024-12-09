@@ -25,8 +25,8 @@
 		<DebugSymbols>true</DebugSymbols>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="MessagePack" Version="3.0.308" />
 		<PackageReference Include="BarbezDotEu.Extensions.Caching" Version="3.0.0" />
+		<PackageReference Include="MessagePack" Version="3.0.308" />
 		<None Include="..\README.md" Pack="true" PackagePath="\" />
 		<None Include="..\ICON.png" Pack="true" PackagePath="\" />
 	</ItemGroup>

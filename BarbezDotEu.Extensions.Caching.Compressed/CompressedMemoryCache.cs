@@ -4,7 +4,9 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using BarbezDotEu.Extensions.Caching.Interfaces;
 using MessagePack;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace BarbezDotEu.Extensions.Caching.Compressed
 {
