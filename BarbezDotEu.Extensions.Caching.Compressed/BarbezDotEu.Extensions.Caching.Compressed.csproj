@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Authors>Hannes Barbez</Authors>
+		<Company>Hannes Barbez</Company>
+		<Title>BarbezDotEu.Extensions.Caching.Compressed</Title>
+		<Product>BarbezDotEu.Extensions.Caching.Compressed</Product>
+		<PackageId>BarbezDotEu.Extensions.Caching.Compressed</PackageId>
+		<Copyright>©2024 Hannes Barbez</Copyright>
+		<Version>3.0.0</Version>
+		<Description>
+			Compressed encapsulated memory cache based on BarbezDotEu.Extensions.Caching and MessagePack.
+		</Description>
+		<PackageTags>Caching;Barbez;Abstract</PackageTags>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://barbez.eu</PackageProjectUrl>
+		<PackageOutputPath>./nupkg</PackageOutputPath>
+		<RepositoryUrl>https://github.com/hannesbarbez/BarbezDotEu.Extensions.Caching.Compressed</RepositoryUrl>
+		<RepositoryType>GIT</RepositoryType>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>ICON.png</PackageIcon>
+		<DebugSymbols>true</DebugSymbols>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="MessagePack" Version="3.0.308" />
+		<PackageReference Include="BarbezDotEu.Extensions.Caching" Version="3.0.0" />
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
+		<None Include="..\ICON.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+</Project>
