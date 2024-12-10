@@ -7,7 +7,7 @@
 		<Product>BarbezDotEu.Extensions.Caching.Compressed</Product>
 		<PackageId>BarbezDotEu.Extensions.Caching.Compressed</PackageId>
 		<Copyright>©2024 Hannes Barbez</Copyright>
-		<Version>3.0.0</Version>
+		<Version>3.0.1</Version>
 		<Description>
 			Compressed encapsulated memory cache based on BarbezDotEu.Extensions.Caching and MessagePack.
 		</Description>
@@ -25,7 +25,7 @@
 		<DebugSymbols>true</DebugSymbols>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="BarbezDotEu.Extensions.Caching" Version="3.0.0" />
+		<PackageReference Include="BarbezDotEu.Extensions.Caching" Version="3.0.1" />
 		<PackageReference Include="MessagePack" Version="3.0.308" />
 		<None Include="..\README.md" Pack="true" PackagePath="\" />
 		<None Include="..\ICON.png" Pack="true" PackagePath="\" />
