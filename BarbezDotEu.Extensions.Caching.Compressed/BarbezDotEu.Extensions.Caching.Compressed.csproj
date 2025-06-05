@@ -6,8 +6,8 @@
 		<Title>BarbezDotEu.Extensions.Caching.Compressed</Title>
 		<Product>BarbezDotEu.Extensions.Caching.Compressed</Product>
 		<PackageId>BarbezDotEu.Extensions.Caching.Compressed</PackageId>
-		<Copyright>©2024 Hannes Barbez</Copyright>
-		<Version>3.0.1</Version>
+		<Copyright>©2025 Hannes Barbez</Copyright>
+		<Version>3.0.2</Version>
 		<Description>
 			Compressed encapsulated memory cache based on BarbezDotEu.Extensions.Caching and MessagePack.
 		</Description>
@@ -24,6 +24,14 @@
 		<PackageIcon>ICON.png</PackageIcon>
 		<DebugSymbols>true</DebugSymbols>
 	</PropertyGroup>
+
+    <!-- only applies when Configuration == Release: -->
+    <PropertyGroup Condition="'$(Configuration)'=='Release'">
+        <!-- Turn off generation of a .pdb and strip debug info entirely -->
+        <DebugType>none</DebugType>
+        <DebugSymbols>false</DebugSymbols>
+        <Optimize>true</Optimize>
+    </PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="BarbezDotEu.Extensions.Caching" Version="3.0.1" />
 		<PackageReference Include="MessagePack" Version="3.0.308" />
