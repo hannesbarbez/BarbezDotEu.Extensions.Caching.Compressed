@@ -34,7 +34,7 @@
     </PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="BarbezDotEu.Extensions.Caching" Version="3.0.1" />
-		<PackageReference Include="MessagePack" Version="3.0.308" />
+		<PackageReference Include="MessagePack" Version="3.1.3" />
 		<None Include="..\README.md" Pack="true" PackagePath="\" />
 		<None Include="..\ICON.png" Pack="true" PackagePath="\" />
 	</ItemGroup>
