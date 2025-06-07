@@ -7,7 +7,7 @@
 		<Product>BarbezDotEu.Extensions.Caching.Compressed</Product>
 		<PackageId>BarbezDotEu.Extensions.Caching.Compressed</PackageId>
 		<Copyright>©2025 Hannes Barbez</Copyright>
-		<Version>3.0.2</Version>
+		<Version>3.0.3</Version>
 		<Description>
 			Compressed encapsulated memory cache based on BarbezDotEu.Extensions.Caching and MessagePack.
 		</Description>
